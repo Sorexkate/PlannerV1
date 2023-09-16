@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .planner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .calendar {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .day {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .notes {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .note-box {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Planner</h1>
+    <div class="planner">
+        <div class="calendar">
+            <h2>Calendar</h2>
+            <div class="day">
+                <h3>Monday</h3>
+                <div class="note-box">Notes and Reminders for Monday</div>
+            </div>
+            <div class="day">
+                <h3>Tuesday</h3>
+                <div class="note-box">Notes and Reminders for Tuesday</div>
+            </div>
+            <div class="day">
+                <h3>Wednesday</h3>
+                <div class="note-box">Notes and Reminders for Wednesday</div>
+            </div>
+            <div class="day">
+                <h3>Thursday</h3>
+                <div class="note-box">Notes and Reminders for Thursday</div>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <div class="note-box">Notes and Reminders for Friday</div>
+            </div>
+        </div>
+        <div class="notes">
+            <h2>Notes and Reminders</h2>
+            <div class="note-box">General Notes and Reminders</div>
+        </div>
+    </div>
+</body>
+</html>
